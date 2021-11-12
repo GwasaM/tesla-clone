@@ -70,11 +70,13 @@ const LeftBtn = styled.div`
     opacity: 0.85;
     text-transform: uppercase;
     cursor: pointer;
+    margin: 10px;
 ` 
 const RightBtn = styled(LeftBtn)`
     background: white;
     opacity: 0.6;
     color: black;
+    margin: 10px;
 `
 const DownArw = styled.img`
     overflow-x: hidden;
