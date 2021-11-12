@@ -86,13 +86,14 @@ align-items: center;
 a{
     font-weight: 600;
     text-transform: uppercase;
-    margin-right: 10px;
+    margin-right: 15px;
     text-decoration: none;
 }
 
 `
 const CustomMenu = styled(MenuIcon)`
     cursor: pointer;
+    margin: 20px;
 `
 const BurgerNav = styled.div`
     position: fixed;
@@ -103,7 +104,7 @@ const BurgerNav = styled.div`
     width: 300px;
     z-index: 13;
     list-style: none;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-direction:column;
     text-align: start;
