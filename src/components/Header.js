@@ -70,11 +70,13 @@ align-items: center;
 justify-content: center;
 flex: 1;
 
+
 a{
     font-weight: 600;
     text-transform: uppercase;
     padding: 0 10px;
     flex-wrap: nowrap;
+    text-decoration: none;
 }
 
 `
@@ -85,6 +87,7 @@ a{
     font-weight: 600;
     text-transform: uppercase;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 `
@@ -111,6 +114,7 @@ const BurgerNav = styled.div`
         border-bottom: 1px solid rgba(0, 0, 0, .2);
         a{
             font-weight: 600;
+            text-decoration: none;
         }
 
     }
